@@ -1,0 +1,3 @@
+#!/bin/sh
+# feh --no-fehbg --bg-fill --randomize '/home/ticks/Pictures/Wallpaper' 
+feh --no-fehbg --bg-fill '/home/ticks/Pictures/Wallpaper/wallhaven-y83x8g.jpg'
