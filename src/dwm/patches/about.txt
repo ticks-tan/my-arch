@@ -1,0 +1,12 @@
+dwm透明补丁							->	dwm-alpha-20201019-61bb8b2.diff
+dwm隐藏不活动tag					->	dwm-hide_vacant_tags-6.2.diff
+dwm启动脚本补丁						->	dwm-autostart-20210120-cb3f58a.diff
+dwm临时终端							->	dwm-scratchpad-6.2.diff
+dwm多窗口添加空隙					->	dwm-uselessgap-20211119-58414bee958f2.diff
+dwm窗口全屏							->	dwm-focusfullscreen-20211121-95e7342.diff
+dwm支持自动跳转到紧急tag			->	dwm-focusonnetactive-6.2.diff
+dwm支持移动窗口到tag跳转到指定tag	->	dwm-viewontag-20210312-61bb8b2.diff
+dwm状态栏支持绘制颜色文字			->	dwm-status2d-6.3.diff
+dwm调整悬浮窗口大小可以根据
+鼠标位置选择最近角落				->	dwm-resizecorners-6.2.diff
+dwm可以调节状态栏高度				->	dwm-bar-height-6.2.diff

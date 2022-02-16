@@ -1,0 +1,91 @@
+# 字体设置
+font_family			Source Code Pro Medium
+bold_font			Source Code Pro Bord
+italic_font			Source Code Pro
+bold_italic_font	Source Code Pro
+
+font_size 14.0
+force_ltr no
+
+font_features none
+
+# 光标形状
+cursor_shape beam
+cursor_beam_thickness 1
+
+# 光标在键盘多少秒不活动后停止闪烁
+cursor_stop_blinking_after 15.0
+
+# 回滚最大行数
+scrollback_lines 1500
+
+# 鼠标等待所少秒隐藏
+mouse_hide_wait 3.0
+
+# 鼠标指上URL形状 none, straight, double, curly, dotted, dashed
+open_url_with dashed
+
+# 检测网址
+detect_urls yes
+
+# 将屏幕更新同步到显示器的刷新率
+sync_to_monitor yes
+
+# 标题栏颜色
+tab_bar_background none
+tab_bar_margin_color none
+
+# 光标颜色
+cursor #9770b2
+cursor_text_color background
+
+url_color #4496cd
+
+active_border_color #81a559
+inactive_border_color #293845
+bell_border_color #d8843e
+
+active_tab_foreground #96a8b5
+active_tab_background #13222e
+
+inactive_tab_foreground #80919f
+inactive_tab_background #293845
+
+foreground #96a8b5
+background #13222e
+
+selection_foreground #13222e
+selection_background #4496cd
+
+color0 #3f4f5b
+color8 #556572
+
+color1 #ca3e5a
+color9 #C45871
+
+color2 #81a559
+color10 #8AAA70
+
+color3 #ebb062
+color11 #DEB377
+
+color4 #4496cd
+color12 #599ECD
+
+color5 #b35d8d
+color13 #B2709A
+
+color6 #42abab
+color14 #57AFB2
+
+color7 #96a8b5
+color15 #acbecc
+
+mark1_foreground #13222e
+mark1_background #42abab
+
+mark2_foreground #13222e
+mark2_background #b35d8d
+
+mark3_foreground #13222e
+mark3_background #ebb062

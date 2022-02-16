@@ -1,0 +1,76 @@
+colors:
+
+  primary:
+    background: "#232830"
+    # background: "#2E3440"
+    foreground: "#D8DEE9"
+
+
+  normal:
+    black: "#3B4252"
+    red: "#BF616A"
+    green: "#A3BE8C"
+    yellow: "#EBCB8B"
+    blue: "#81A1C1"
+    magenta: "#B48EAD"
+    cyan: "#88C0D0"
+    white: "#abb2bf"
+
+
+  bright:
+    black: "#5c6370"
+    red: "#e06c75"
+    green: "#98c379"
+    yellow: "#d19a66"
+    blue: "#61afef"
+    magenta: "#c678dd"
+    cyan: "#56b6c2"
+    white: "#ECEFF4"
+
+# 设置字体
+font:
+  normal:
+    family: "Source Code Pro"
+    style: Regular
+  bold:
+    family: "Source Code Pro"
+    style: Bold
+  italic:
+    family: "Source Code Pro"
+    style: Italic
+  bold_italic:
+    family: "Source Code Pro"
+    style: Bold Italic
+
+  # 字大小
+  size: 13.0
+
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+
+window:
+  padding:
+    x: 5
+    y: 5
+  opacity: 1
+
+# background_opacity: 0.8
+
+scrolling:
+# 回滚缓冲区中的最大行数,指定“0”将禁用滚动。
+  history: 10000
+  # 滚动行数 
+  multiplier: 10
+
+# 如果为‘true’，则使用亮色变体绘制粗体文本。
+draw_bold_text_with_bright_colors: true
+
+selection:
+  semantic_escape_chars: ',│`|:"'' ()[]{}<>'
+  save_to_clipboard: true
+
+live_config_reload: true
