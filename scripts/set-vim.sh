@@ -52,6 +52,15 @@ if ! command -v git; then
 	exit -1
 fi
 
+if ! command -v python; then
+	echo ">> python命令不存在，请确保系统可以使用python命令! "
+	exit -1
+fi
+
+if ! command -v pip; then
+	echo ">> pip命令不存在，请确保系统可以使用git命令! "
+	exit -1
+fi
 
 echo ">> 创建备份目录. . ."
 mkdir -p -v ~/vim-backup
@@ -93,8 +102,11 @@ if [ -f "$colorFile" ]; then
     mkdir -p ~/.vim/colors && cp ${colorFile} ~/.vim/colors
 fi
 
+echo ">> 安装代码补全依赖 -- neovim"
+pip install neovim
+
 echo ">> 注意：此配置文件使用的主题为material，需要终端开启256和真彩色支持"
-echo ">> 通常情况下使用 export TERM=xterm-256color 命令即可开启256色支持"
+echo ">> 通常情况下添加 export TERM=xterm-256color 环境变量可开启256色支持"
 echo "安装完成，感谢您使用本脚本！"
 
 exit 0
