@@ -1,8 +1,6 @@
+/** Basic config file **/
+
 configuration {
-    modi: "window,combi,ssh,drun,run,windowcd,keys";
-	font: "SauceCodePro Nerd Font Mono 14";
-	show-icons: true;
-	icon-theme: "Win10Sur-black-dark";
-	display-drun: "App";
+  show-icons:         true;
+  icon-theme:         "Papirus";
 }
-@theme "Arc"
