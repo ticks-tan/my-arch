@@ -21,52 +21,12 @@ launch_bar() {
 	fi
 }
 
-if [[ "$1" == "--material" ]]; then
-	style="material"
-	launch_bar
-
-elif [[ "$1" == "--shades" ]]; then
-	style="shades"
-	launch_bar
-
-elif [[ "$1" == "--hack" ]]; then
-	style="hack"
-	launch_bar
-
-elif [[ "$1" == "--docky" ]]; then
-	style="docky"
-	launch_bar
-
-elif [[ "$1" == "--cuts" ]]; then
-	style="cuts"
-	launch_bar
-
-elif [[ "$1" == "--shapes" ]]; then
+if [[ "$1" == "--shapes" ]]; then
 	style="shapes"
-	launch_bar
-
-elif [[ "$1" == "--grayblocks" ]]; then
-	style="grayblocks"
-	launch_bar
-
-elif [[ "$1" == "--blocks" ]]; then
-	style="blocks"
 	launch_bar
 
 elif [[ "$1" == "--colorblocks" ]]; then
 	style="colorblocks"
-	launch_bar
-
-elif [[ "$1" == "--forest" ]]; then
-	style="forest"
-	launch_bar
-
-elif [[ "$1" == "--pwidgets" ]]; then
-	style="pwidgets"
-	launch_bar
-
-elif [[ "$1" == "--panels" ]]; then
-	style="panels"
 	launch_bar
 
 else
@@ -74,8 +34,6 @@ else
 	Usage : launch.sh --theme
 		
 	Available Themes :
-	--blocks    --colorblocks    --cuts      --docky
-	--forest    --grayblocks     --hack      --material
-	--panels    --pwidgets       --shades    --shapes
+	--colorblocks    --shapes
 	EOF
 fi
